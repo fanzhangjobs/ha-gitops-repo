@@ -3,3 +3,6 @@ kind: Kustomization
 resources:
 - gotk-components.yaml
 - gotk-sync.yaml
+- app-sync.yaml
+- image-policy.yaml        # ImagePolicy (optional)
+- image-automation.yaml    # ImageUpdateAutomation (optional)  

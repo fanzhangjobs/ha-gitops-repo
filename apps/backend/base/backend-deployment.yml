@@ -17,7 +17,7 @@ spec:
         - name: acr-secret
       containers:
         - name: backend
-          image: bmodemoacr.azurecr.io/backendapp:v2.0.0 # {"$imagepolicy": "flux-system:backend-policy"}
+          image: bmodemoacr.azurecr.io/backendapp # {"$imagepolicy": "flux-system:backend-policy"}
           ports:
             - containerPort: 5000
           readinessProbe:

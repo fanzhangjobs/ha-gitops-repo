@@ -21,4 +21,4 @@ spec:
       branch: fflux
   update:
     strategy: Setters
-    path: ./apps/backend/hot
+    path: ./apps/backend

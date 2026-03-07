@@ -7,4 +7,4 @@ spec:
   replicas: 3
   containers:
     - name: backend
-      image: bmodemoacr.azurecr.io/backendapp:v2.0.0 # {"$imagepolicy": "flux-system:backend-policy"}  
+      image: bmodemoacr.azurecr.io/backendapp:v2.1.3 # {"$imagepolicy": "flux-system:backend-policy"}  

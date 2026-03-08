@@ -9,4 +9,4 @@ spec:
     spec:
       containers:
         - name: backend
-          image: bmodemoacr.azurecr.io/backendapp:v2.1.5 # {"$imagepolicy": "flux-system:backend-policy"}
+          image: bmodemoacr.azurecr.io/backendapp:v2.1.6 # {"$imagepolicy": "flux-system:backend-policy"}

@@ -3,6 +3,8 @@ kind: Ingress
 metadata:
   name: backend-ingress
   namespace: bmo
+  annotations:
+    kubernetes.io/ingress.class: "nginx"  # ← important
 spec:
   rules:
   - host: backend.local

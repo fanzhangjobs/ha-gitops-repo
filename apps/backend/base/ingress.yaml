@@ -2,7 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: backend-ingress
-  namespace: default
+  namespace: bmo
 spec:
   rules:
   - host: backend.local

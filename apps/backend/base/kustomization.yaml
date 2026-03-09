@@ -1,3 +1,4 @@
 resources:
   - acr-secret.yaml
   - backend-deployment.yml
+  - ingress.yaml
